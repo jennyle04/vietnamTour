@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>The Scenery</title>
+
+<style>
+/* place CSS style rules here */
+table {margin-left:auto; margin-right:auto;}
+table, td {
+
+            border: 1px solid;
+            border-collapse:collapse;
+            text-align: center;
+            background-color: #4d483f;
+            color: white;
+        }
+        td {
+            width: 500px;
+            height: 30px;
+        }
+a {color: white}
+
+body {background-color: bisque; color: #4d483f;}
+
+h1 {color: #CC9754;}
+
+button {
+    background-color: white; color:#4d483f; border: 5px solid #CC9754; font-size: large;
+}
+</style>
+
+</head>
+
+<body>
+<!-- place html web page content here -->
+<table>
+    <tr>
+        <td><a href="index.html">Homepage</a></td>
+        <td><a href="cultureVietnam.html">Vietnam Culture</a></td>
+        <td><a href="expense.html">Vietnam Expenses</a></td>
+    </tr>
+</table>
+
+<h1 style = text-align:center>Seeing What Vietnamese People See</h1>
+
+<button onClick ="funFactButton()">Click for Fun Fact!</button>
+<p id = "funFact"></p>
+
+<h2 style="text-align:center">The Golden Bridge</h2>
+<p style="text-align:center">
+    The Golden Bridge is a major tourist attraction in Vietnam. <br>
+    It is also known as the Golden Hand Bridge, and it took about <br>
+    one year for it to finish building. The bridge is approximately <br>
+    150-metre or 490 ft long. The yellow-colored bridge is <br>
+    supported by two massive hands that resemble God's hands.
+</p>    
+
+<p style="text-align:center">
+    <img src="theGoldenBridge.jpg" alt="People walking on the famous Golden Bridge in Vietnam" width="500" height="500">
+</p>
+
+
+<h2>Mausoleum of Emperor Khai Dinh</h2>
+<p>
+    The Mausoleum of Emperor Khai Dinh is the tomb of the <br>
+    12th Emperor of the Nguyễn dynasty. It finished building <br>
+    in 1931 and it took 11 years to construct. This is a very <br>
+    magnificent location that marked a major point for Vietnam. <br>
+    It was the final tomb that a Vietnamese Emperor could build <br>
+    for himself because the 13th Emperor had been abdicated, <br>
+    which lead to ending the dynasty.
+</p>    
+
+<p>
+    <img src="tombOfKhaiDinh.jpg" alt="Emperor Khai Dinh's Mausoleum" width="500" height="500">
+    <img src="khaiDinh.jpg" alt="Picture 2 of Emperor Khai Dinh's Mausoleum" width="500" height="500">
+</p>
+
+
+<h2 style="text-align:center">Ban Gioc Water Falls</h2>
+<p style="text-align:center">
+    The Ban Gioc Water Falls is Vietnam's widest waterfall with 30m height and 300 width.
+</p>    
+
+<p style="text-align:center">
+    <img src="waterfall.jpg" alt="Widest Waterfall in Vietnam" width="500" height="500">
+    <img src="moreWaterfall.jpg" alt="Picture 2 of Vietnam's Widest Waterfall" width="500" height="500">
+</p>
+
+<h2>Hang Son Doong Cave</h2>
+<p>
+    The Hang Son Doong Cave is the largest cave in Vietnam. <br>
+    It is about three million years old. The cave has water pools <br>
+    and a river that passes through it. Because of the erosion that <br>
+    allows in sunshine, greenery can lie on the walls. The cave is <br>
+    otherworldly, and guided tours are possible to fully <br>
+    appreciate this incredible site.
+</p>    
+
+<p>
+    <img src="largestCaveVietnam.jpg" alt="Vietnam's Largest Cave" width="500" height="500">
+</p>
+
+
+<h2 style="text-align:center">Hạ Long Bay</h2>
+<p style="text-align:center">
+    Hạ Long Bay is known for its emerald colored waters. There are thousands <br>
+    of islands across this bay and hundreds of cruises to hop on for the bay tour! <br>
+    This place is ideal for activities like kayaking, hiking, and scuba diving. <br>
+    It also has beautiful beaches in addition to the beyond spectacular scenery.
+</p>    
+
+<p style="text-align:center">
+    <img src="haLongBay.jpg" alt="Bay in Vietnam" width="700" height="500">
+</p>
+
+
+
+
+<script>
+// Place JavaScript Code Here
+"use strict";
+function funFactButton() {
+    document.getElementById("funFact").innerHTML = "Vietnam cannot get snow!";
+}
+</script>
+
+</body>
+
+</html>
